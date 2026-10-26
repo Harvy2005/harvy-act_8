@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff5e6;
+    color: #333;
+}
+
+header {
+    background-color: #8b0000;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border: 4px solid #ffcc66;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    background-color: #ffcc66;
+    padding: 18px;
+    border: 3px solid #8b0000;
+}
+
+nav a {
+    color: #8b0000;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border: 2px solid #8b0000;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #8b0000;
+    color: white;
+}
+
+.home,
+.menu,
+.about,
+.contact {
+    text-align: center;
+    margin: 25px;
+    padding: 30px;
+    background-color: white;
+    border: 3px solid #8b0000;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #8b0000;
+    margin-bottom: 20px;
+}
+
+.food-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.food-card {
+    width: 220px;
+    padding: 20px;
+    background-color: #fff5e6;
+    border: 2px solid #8b0000;
+    border-radius: 8px;
+}
+
+.food-card h3 {
+    color: #8b0000;
+    margin-bottom: 10px;
+}
+
+.food-card p {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #8b0000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-top: 4px solid #ffcc66;
+}
+
+@media (max-width: 600px) {
+    nav {
+        gap: 10px;
+    }
+
+    .home,
+    .menu,
+    .about,
+    .contact {
+        margin: 12px;
+        padding: 20px;
+    }
+}
